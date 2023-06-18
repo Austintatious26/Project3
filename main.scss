@@ -363,7 +363,7 @@ body {
     -webkit-text-fill-color: transparent;
     
     color: #9356DC;
-    }
+}
     
 
     
@@ -417,7 +417,6 @@ body {
             color: black;
             justify-content: left;
             padding: 40px 0px 0px 0px;
-            
         }
 
         &__wrap {
@@ -449,7 +448,6 @@ body {
             width: 100%;
 
             overflow: hidden;
-
         }
 
         @keyframes slide-show {
@@ -542,7 +540,6 @@ body {
 
             transform: rotate(360deg);
             transition: transform 2000ms;
-            
         }
 }
 
@@ -552,7 +549,6 @@ body {
         
     
         transition: width 1000ms;
-        
     } 
 
     .menu__checkbox {
@@ -565,8 +561,6 @@ body {
         transform: rotate(-360deg);
         transition: transform 2000ms;
     }
-
-
 }
 
 
@@ -599,7 +593,7 @@ body {
     -webkit-text-fill-color: transparent;
     
     color: #9356DC;
-    }
+}
     
 
     
@@ -760,7 +754,7 @@ background: #353535;
         100% {
           transform: rotate(360deg); border-width: 10px;
         }
-      }
+    }
 
     .direc {
         width: 100%;
@@ -771,7 +765,7 @@ background: #353535;
         align-items: center;
         margin: 0px;
         gap: 0px;
-      }
+    }
 
     .direc__list {
         display: flex;
@@ -846,18 +840,12 @@ background: #353535;
         width: 100%;
         justify-content: center;
         gap: 25px;
-
-        border: 2px solid green;
     }
 
     .menu__section {
         width: 40%;
         margin: 0;
     }
-
-    
-
-
 }
     
 
