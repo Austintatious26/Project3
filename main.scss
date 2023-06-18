@@ -84,19 +84,16 @@ header {
 }
 
 .location {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px;
-background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: lightgrey;
 
-&__pin {
-    padding-right: 20px;
-}
-
-
-    
+    &__pin {
+        padding-right: 20px;
+    }
 }
 
 .discover {
@@ -182,8 +179,6 @@ body {
       align-items: center;
       
       gap: 1rem;
-      
-      
     }
     
     &__text {
@@ -214,19 +209,16 @@ body {
       height: 1em;
       border-radius: 50%;
     }
-    
-    
-  }
+}
    
   
   .direc__icon {
       padding-right: 1rem;
-      
-  }
+    }
   
   .direc__btn {
       padding-left: 2rem;  
-  }
+    }
 
 .header {
     position: relative;
@@ -262,15 +254,12 @@ body {
     &__title {
         font-size: xx-large;
         padding: 25px 0px;
-        
     }
 
     &__holder {
         display: flex;
         flex-direction: column;
         gap: 20px;
-
-        
     }
 
     &__card {
@@ -289,7 +278,6 @@ body {
         right: 10px;
         background-color: #99E2D0;
         padding: 10px 15px;
-        
     }
     
 
@@ -305,8 +293,6 @@ body {
         flex-direction: column;
         
         width: 100%;
-
-        
     }
 
 
@@ -333,8 +319,6 @@ body {
   
         object-fit: cover;
         object-position: 0 0;
-
-               
     }
 
   
@@ -500,7 +484,6 @@ body {
             text-overflow: ellipsis;
             
             transition: width 1000ms ease-in;
-
         }
 
         &__dish-descrip {
@@ -509,7 +492,6 @@ body {
             text-overflow: ellipsis;
             
             transition: width 1000ms ease-in;
-
         }
 
         &__dish-price {
@@ -517,17 +499,12 @@ body {
             flex: none; 
             position: relative;
             height: 80px;
-
-            
         }
 
         &__dish-euro {
             top: 70%;
             left: 25%;
             position: absolute;
-
-
-            
         }
 
         &__checkbox {
