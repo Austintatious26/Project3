@@ -448,6 +448,8 @@ body {
             flex-direction: column;
             justify-content: flex-start;
             gap: 10px;
+
+            animation: slide-show 2000ms forwards; 
         }
 
         &__dish-btn {
@@ -465,7 +467,6 @@ body {
 
             overflow: hidden;
 
-            animation: slide-show 7000ms forwards; 
         }
 
         @keyframes slide-show {
