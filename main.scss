@@ -295,6 +295,11 @@ body {
         width: 100%;
     }
 
+    &__name {
+        font-size: 24.9px;
+        font-weight: bold;
+    }
+
 
     &__wrap{
         display: flex;
@@ -479,6 +484,9 @@ body {
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            display: block;
+            font-size: 30px;
+            font-weight: bold;
             
             transition: width 1000ms ease-in;
         }
@@ -492,6 +500,7 @@ body {
         }
 
         &__dish-price {
+            display: block;
             width: 25%;
             flex: none; 
             position: relative;
@@ -524,6 +533,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            
             
             border-radius: 50%;
             
@@ -590,7 +600,10 @@ body {
     transition: opacity 3000ms; 
     
     background: linear-gradient(#9356DC, #FF79DA);
-    
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     
     color: #9356DC;
 }
@@ -740,16 +753,15 @@ background: #353535;
         }
     
         25% {
-            transform: rotate (90deg); border-width: 15px;
+            transform: rotate(90deg); border-width: 15px;
         }
     
         50% {
-            transform: rotate (180deg); border-width: 10px;
+            transform: rotate(180deg); border-width: 10px;
         }
         
         75% {
-            transform: rotate (270deg); border-width: 15px;
-        }
+            transform: rotate(270deg); border-width: 15px;        }
     
         100% {
           transform: rotate(360deg); border-width: 10px;
